@@ -4,14 +4,49 @@
   box-sizing: border-box;
 }
 
+/* Cores do site
+  211951
+  836FFF
+  15F5BA
+  F0F3FF*/
+
 html {
   font-family: poppins, sans-serif;
   font-size: 62.5%;
+
+  background-color: #211951;
+
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
 }
 
 /* Menu */
+
+header {
+  width: 100%;
+  height: 7rem;
+
+  background-color: #836fff;
+  color: #f0f3ff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100rem;
+}
+
 .menu-lista,
-.menu-lista a {
+.menu-lista ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.menu-item,
+.menu-item a {
   font-size: 14px;
   font-weight: 600;
 
