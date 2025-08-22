@@ -53,3 +53,90 @@ header {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+/* Seção Home */
+.home {
+  margin: 10rem 0;
+
+  color: #000;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.container-home {
+  width: 150rem;
+  padding: 50px;
+
+  background-color: #15f5ba;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+
+  border-radius: 50px;
+}
+
+.container-home img {
+  width: 70rem;
+  height: 70rem;
+
+  border-radius: 50%;
+}
+
+.container-home h2 {
+  font-size: 7rem;
+  font-weight: 900;
+
+  color: #211951;
+}
+
+.container-home p {
+  font-size: 2rem;
+  font-weight: 400;
+  text-indent: 20px;
+
+  color: #211951;
+}
+
+.container-home a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+
+  background-color: #211951;
+  color: #f0f3ff;
+
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: solid 5px #211951;
+  border-radius: 30px;
+}
+
+.container-home a:hover {
+  background-color: #836fff;
+  color: #f0f3ff;
+
+  transition: 0.3s;
+}
+
+/* Rodapé */
+footer {
+  width: 100%;
+  height: 7rem;
+
+  background-color: #836fff;
+  color: #f0f3ff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
