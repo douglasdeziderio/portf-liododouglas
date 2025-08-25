@@ -36,6 +36,12 @@ header {
   gap: 100rem;
 }
 
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+
 .menu-lista,
 .menu-lista ul {
   list-style: none;
@@ -80,17 +86,21 @@ header {
   gap: 5rem;
 
   border-radius: 50px;
+
+  box-shadow: 10px 0px 20px #000000, -10px -0px 20px #000000,
+    0px 10px 20px #000000, 0px -10px 20px #000000;
 }
 
 .container-home img {
   width: 70rem;
   height: 70rem;
 
+  border: 7px solid #000000;
   border-radius: 50%;
 }
 
-.container-home h2 {
-  font-size: 7rem;
+.container-home h1 {
+  font-size: 5rem;
   font-weight: 900;
 
   color: #211951;
@@ -117,7 +127,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
 
-  border: solid 5px #211951;
+  border: solid 5px #000000;
   border-radius: 30px;
 }
 
