@@ -22,9 +22,11 @@ html {
 }
 
 /* Menu */
-
 header {
-  width: 100%;
+  position: fixed;
+  z-index: 2;
+
+  width: 190rem;
   height: 7rem;
 
   background-color: #836fff;
@@ -61,10 +63,19 @@ header {
 }
 
 /* Seção Home */
-.home {
-  margin: 10rem 0;
+main {
+  position: relative;
+  top: 7rem;
+  z-index: 1;
+}
 
+.home {
+  padding: 7rem 0;
   color: #000;
+
+  background-image: url("/assets/9129518.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 
   display: flex;
   flex-direction: column;
@@ -75,7 +86,7 @@ header {
 
 .container-home {
   width: 150rem;
-  padding: 50px;
+  padding: 30px;
 
   background-color: #15f5ba;
 
@@ -115,12 +126,14 @@ header {
 }
 
 .container-home a {
-  display: inline-block;
+  width: 200px;
   margin-top: 20px;
   padding: 15px 30px;
 
   background-color: #211951;
   color: #f0f3ff;
+
+  display: inline-block;
 
   font-size: 2rem;
   font-weight: 600;
@@ -129,18 +142,25 @@ header {
 
   border: solid 5px #000000;
   border-radius: 30px;
+
+  transition: 0.3s;
 }
 
 .container-home a:hover {
   background-color: #836fff;
   color: #f0f3ff;
-
-  transition: 0.3s;
+  background-image: linear-gradient(45deg, #836fff, #15f5ba);
 }
 
 /* Rodapé */
 footer {
-  width: 100%;
+  position: relative;
+  top: 7rem;
+  z-index: 2;
+
+  font-size: 13px;
+
+  width: 190rem;
   height: 7rem;
 
   background-color: #836fff;
